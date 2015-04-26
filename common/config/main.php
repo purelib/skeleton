@@ -5,5 +5,9 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true, // Disable r= routes
+            'showScriptName' => false, // Disable index.php
+        ],
     ],
 ];
